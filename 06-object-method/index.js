@@ -24,4 +24,10 @@ let rectangle = {
     }
 }
 
-console.log(rectangle.getArea());
+function getArea({ width, height }) {
+    return width * height
+}
+
+console.log(getArea(rectangle));
+
+

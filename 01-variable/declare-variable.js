@@ -2,14 +2,23 @@
 // Khai báo các biến sum, sub, mul, div lần lượt gán giá trị tổng, hiệu, tích, thương của x, y cho từng biến.
 
 
-let x = 5, y = 10
+// let x = 5, y = 10
 
-let sum = x + y
-let sub = x - y
-let mul = x * y
-let div = x / y
+// let sum = x + y
+// let sub = x - y
+// let mul = x * y
+// let div = x / y
 
-console.log(sum);
-console.log(sub);
-console.log(mul);
-console.log(div);
+// console.log(sum);
+// console.log(sub);
+// console.log(mul);
+// console.log(div);
+
+
+let array = [1, 2, 4, 5]
+
+let evenNumbers = array.filter(function (item) {
+    return item % 2 == 0
+})
+
+console.log(evenNumbers);
