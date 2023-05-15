@@ -9,7 +9,8 @@ let literalObject = {
 console.log(literalObject.getName()) // => Gọi method: Học cơ bản
 
 let js = {
-    name: "js.edu.vn - học deep JS"
+    name: "js.edu.vn - học deep JS",
+    age: 18,
 }
 
 console.log(literalObject.getName.call(js)) // => Gọi method: js.edu.vn - học deep JS
